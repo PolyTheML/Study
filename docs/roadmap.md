@@ -22,15 +22,17 @@ Hours are estimates for focused study, including mistakes. At 5 to 10 hours a we
 | 09 | Transformer block | 5 | **M2: every component of Fig. 1, checked** (~70 h) |
 | 10 | Tiny GPT | 5 | |
 | 11 | Training | 8 | |
-| 12 | Decoding | 3 | **M3: a trained tiny GPT that writes Shakespeare-like text** (~86 h). Repo can go public here. |
+| 12 | Decoding | 3 | **M3: a trained tiny GPT that writes Shakespeare-like text** (~86 h) |
 | 13 | Ablations | 8 | **M4: pre-registered experiments with seeds** (~94 h) |
 | 14 | Byte-level BPE, Khmer | 6 | |
 | 15 | Encoder-decoder | 8 | |
 | 16 | Khmer-English translation | 12 | **M5: the paper's own architecture on a low-resource pair** (~120 h) |
 
-If a deadline arrives early, ship at the last completed milestone and say so in the README. A finished M3 with honest
-results reads better than a half-finished M5.
+There is no deadline: the pace is untimed (see [`ROADMAP.md`](../ROADMAP.md)).
+If an application goes out mid-way, point to the last completed milestone and say so in the README.
 
 ## After this repo
-1. Resume LMRC (Li, Chen, Long, Zhang 2024): this repo covers prerequisites P2 to P8 of its prerequisite track.
-2. The planned capstone extension.
+This repo is Phase 1 of [`ROADMAP.md`](../ROADMAP.md), and it covers prerequisites P2 to P8 of the LMRC prerequisite track.
+Phases 2 and 3 go in a new repo.
+LMRC (Li, Chen, Long, Zhang 2024) resumes in Phase 2, after stop 2.5 (LoRA), once P9 and P10 are built too.
+The capstone is part of Phase 3.

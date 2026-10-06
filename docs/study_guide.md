@@ -30,28 +30,18 @@ jupyter lab
 ```
 Google Colab (blocks 11, 13, 16 benefit from a GPU): push the repo to GitHub first, then in the first cell
 ```python
-!git clone https://github.com/<you>/transformer-from-scratch.git
-%cd transformer-from-scratch
+!git clone https://github.com/PolyTheML/Study.git
+%cd Study
 !pip install -q -e .
 ```
 and open notebooks from the repo root. Commit from your own machine, not from Colab.
 
 ## Git workflow
-First time (do this today, as a private repo):
-```bash
-cd transformer-from-scratch
-git init -b main
-git add .
-git commit -m "scaffold: study structure, specs and checks (drafted with Claude as tutor)"
-# create an empty PRIVATE repo named transformer-from-scratch on github.com, then:
-git remote add origin https://github.com/<you>/transformer-from-scratch.git
-git push -u origin main
-```
-Then:
+The repo is public from the start, at https://github.com/PolyTheML/Study (local folder `transformer-from-scratch`).
 - One commit (or a few) per block, with messages like `block 06: scaled dot-product attention`.
 - Notebooks are committed WITH their outputs: the printed checks and plots are evidence of the work.
 - Never commit `data/`, `checkpoints/`, or the paper PDF (see `.gitignore`).
-- Push to GitHub from the start, as a private repo. Make it public once milestone M3 is done and the README has results.
+- Push after every block.
 
 ## Shortcuts (from the project protocol)
 `skim`, `next`, `deeper`, `code`, `sheet`, `check`, `where are we`
