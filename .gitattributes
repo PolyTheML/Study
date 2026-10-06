@@ -1,0 +1,2 @@
+# line endings: LF in the repo and in every checkout, on every OS
+* text=auto eol=lf
