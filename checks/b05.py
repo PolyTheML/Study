@@ -1,4 +1,4 @@
-"""Block 05 (optional): vanilla RNN forward pass."""
+"""Block 05: vanilla RNN forward pass."""
 import numpy as np
 
 from ._util import checkpoint, close, expect
