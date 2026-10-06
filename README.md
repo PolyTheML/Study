@@ -11,14 +11,21 @@ Shakespeare, then the paper's full encoder-decoder trained on a small Khmer-Engl
 
 ## Progress
 
+This repo is Phase 1 of a larger language-modeling history project, from Shannon to today: see [`ROADMAP.md`](ROADMAP.md).
+
 | Block | What | Paper anchor | Status |
 |---|---|---|---|
 | 00 | Setup, numerical gradient checker | | [ ] |
 | 01 | Character tokenizer | §5.1 | [ ] |
 | 02 | Bigram language model (baseline) | | [ ] |
+| 02b | Character and word n-grams, n = 1..5; bits/char vs n | outside: Shannon 1948 | [ ] |
+| 02c | Shannon guessing game; entropy of English vs Khmer | outside: Shannon 1951 | [ ] |
+| 02d | Smoothing: add-one, interpolation, Kneser-Ney | outside: Kneser & Ney 1995 | [ ] |
 | 03 | Softmax, logsumexp, cross-entropy (by hand) | §3.4 | [ ] |
 | 04 | MLP language model, backprop by hand | §3.4 | [ ] |
-| 05 | (optional) Vanilla RNN, the sequential bottleneck | §1, Table 1 | [ ] |
+| 05 | Vanilla RNN, the sequential bottleneck | §1, Table 1 | [ ] |
+| 05b | (optional) LSTM cell | §1 [13] | [ ] |
+| 05c | RNN encoder-decoder with additive attention, toy task | §3.2.1 (additive attention [2]) | [ ] |
 | 06 | Scaled dot-product attention, causal mask | Eq. 1, §3.2.1, §3.2.3 | [ ] |
 | 07 | Multi-head attention | §3.2.2 | [ ] |
 | 08 | Sinusoidal positional encoding | §3.5 | [ ] |

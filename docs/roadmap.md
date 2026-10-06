@@ -10,7 +10,7 @@ Hours are estimates for focused study, including mistakes. At 5 to 10 hours a we
 | 02 | Bigram baseline | 3 | |
 | 03 | Softmax, cross-entropy by hand | 4 | |
 | 04 | MLP language model by hand | 8 | **M1: a neural LM in pure NumPy** (~19 h) |
-| 05 | (optional) RNN | 3 | |
+| 05 | RNN | 3 | |
 | 06 | Scaled dot-product attention | 6 | |
 | 07 | Multi-head attention | 6 | |
 | 08 | Positional encoding | 3 | |
