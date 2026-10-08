@@ -15,8 +15,8 @@ This repo is Phase 1 of a larger language-modeling history project, from Shannon
 
 | Block | What | Paper anchor | Status |
 |---|---|---|---|
-| 00 | Setup, numerical gradient checker | | [ ] |
-| 01 | Character tokenizer | §5.1 | [ ] |
+| 00 | Setup, numerical gradient checker | | [x] |
+| 01 | Character tokenizer | §5.1 | [x] |
 | 02 | Bigram language model (baseline) | | [ ] |
 | 02b | Character and word n-grams, n = 1..5; bits/char vs n | outside: Shannon 1948 | [ ] |
 | 02c | Shannon guessing game; entropy of English vs Khmer | outside: Shannon 1951 | [ ] |
